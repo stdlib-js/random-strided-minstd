@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-strided-minstd",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Fill a strided array with pseudorandom numbers generated using a linear congruential pseudorandom number generator (LCG).",
   "license": "Apache-2.0",
   "author": {
