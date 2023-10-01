@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/random-base-minstd": "^0.0.6",
+    "@stdlib/random-base-minstd": "^0.1.0",
     "@stdlib/strided-base-nullary": "^0.1.0",
     "@stdlib/types": "^0.1.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0"
