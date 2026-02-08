@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-minstd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@umd/browser.js' )
+minstd = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@v0.2.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var minstd = require( 'path/to/vendor/umd/random-strided-minstd/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@v0.2.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -231,7 +231,7 @@ The function accepts the same `options` as documented above for `minstd()`.
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@v0.2.2-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
