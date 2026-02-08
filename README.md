@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minstd from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@deno/mod.js';
+import minstd from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray, ndarray, normalized } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@deno/mod.js';
+import { ndarray, ndarray, normalized } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@v0.2.2-deno/mod.js';
 ```
 
 #### minstd( N, out, so\[, options] )
@@ -210,7 +210,7 @@ The function accepts the same `options` as documented above for `minstd()`.
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@deno/mod.js';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import minstd from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@deno/mod.js';
+import minstd from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-strided-minstd@v0.2.2-deno/mod.js';
 
 // Specify a PRNG seed:
 var opts = {
